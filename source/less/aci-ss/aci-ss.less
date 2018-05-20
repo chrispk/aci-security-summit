@@ -1,0 +1,483 @@
+//********************************************************************
+// Imports
+//********************************************************************
+@import 'https://fonts.googleapis.com/css?family=Cabin:400,400i,500,700';
+//********************************************************************
+// Index
+//********************************************************************
+//********************************************************************
+// Override
+//********************************************************************
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+    margin-bottom: @line-height-computed;
+}
+
+//********************************************************************
+// Global
+//********************************************************************
+.text-brand-primary {
+    color: @brand-primary;
+}
+
+.hr-primary {
+    border-color: @brand-primary;
+}
+
+.hr-light {
+    border-color: @gray-light;
+}
+
+.border{
+    height:5px;
+    width: 100%;
+    background-color: #000;
+    margin: 35px 0px;
+}
+
+.platinum-text{
+    color: #d1d1d1;
+}
+
+.platinum-bg{
+    background-color: #d1d1d1;
+}
+
+.gold-text{
+    color: #edd59a;
+}
+
+.gold-bg{
+    background-color: #edd59a;
+}
+
+.bronze-text{
+    color: #BE6400;   
+}
+
+.bronze-bg{
+    background-color: #BE6400;
+}
+
+.official-carrier-text{
+    color: #999999;
+}
+
+.official-carrier-bg{
+    background-color: #999999;
+}
+
+
+
+//********************************************************************
+.header-sponsors {
+    margin: 8px 0;
+}
+
+.text-fte-asia{
+    color: #b80a16 !important;
+    font-weight: 900; 
+}
+
+.header-sponsors-logo {
+    height: 90px;
+}
+
+.header-sponsors-text {
+    letter-spacing: 1px;
+    padding: 10px 15px;
+    line-height: 22px;
+}
+
+.navbar {
+    border: none;
+}
+
+.navbar-inverse .navbar-brand {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.navbar-default .navbar-brand {
+    padding-left:0;
+}
+.navbar-default .navbar-collapse {
+    @media @bs-media-sm-and-above {
+        padding-left:0;
+        padding-right:0;
+    }
+}
+.navbar-default .navbar-toggle {
+    margin-right: 0;
+}
+
+.navbar-default {
+    font-family: @headings-font-family;
+}
+
+.affix {
+    top: 0;
+    z-index: 10;
+    margin-left:-15px;
+    margin-right:-15px;
+    padding: 0 15px;;
+    @media @bs-media-lg {
+      width: 970px;
+    }
+    @media @bs-media-md {
+      width: 750px;
+    }
+    @media @bs-media-sm {
+      width: 676px;
+    }
+    @media @bs-media-xs {
+      width: 100%;
+    }
+}
+
+.affix-bottom {
+    position: fixed;
+    top: 0 !important;
+    width: 100%;
+    z-index: 10;
+}
+
+.datebar {
+    background: @brand-primary;
+    color: @white;
+    letter-spacing: 1px;
+}
+
+.temp-content-top {
+    padding-top: @jumbotron-padding;
+    padding-bottom: @jumbotron-padding;
+    margin-bottom: @jumbotron-padding;
+}
+
+.jumbotron {
+    padding-top: @jumbotron-padding;
+    padding-bottom: @jumbotron-padding;
+    margin-bottom: @jumbotron-padding;
+    color: @jumbotron-color;
+    background-color: @jumbotron-bg;
+    h1,
+    .h1 {
+        color: @jumbotron-heading-color;
+    }
+    p {
+        margin-bottom: (@jumbotron-padding / 2);
+        font-size: @jumbotron-font-size;
+        font-weight: 200;
+    }
+    a,
+    a:hover,
+    a:active,
+    a:focus {
+        color: @white;
+    }
+    > hr {
+        border-top-color: darken(@jumbotron-bg, 10%);
+    }
+    .container &,
+    .container-fluid & {
+        border-radius: @border-radius-large; // Only round corners at higher resolutions if contained in a container
+        padding-left: (@grid-gutter-width / 2);
+        padding-right: (@grid-gutter-width / 2);
+    }
+    .container {
+        max-width: 100%;
+    }
+    @media screen and (min-width: @screen-sm-min) {
+        padding-top: (@jumbotron-padding * 1.6);
+        padding-bottom: (@jumbotron-padding * 1.6);
+        .container &,
+        .container-fluid & {
+            padding-left: (@jumbotron-padding * 2);
+            padding-right: (@jumbotron-padding * 2);
+        }
+        h1,
+        .h1 {
+            font-size: @jumbotron-heading-font-size;
+        }
+    }
+}
+
+.homepage-jumbotron {
+    overflow: hidden;
+}
+
+.latest-news-container {
+    margin: 0 -15px 0 -15px;
+    padding: 0 15px;
+    position: absolute;
+    width: 100%;
+}
+
+.latest-news {
+    width: 100%;
+    background: #222222;
+    min-height: 20em;
+    padding: 11px 15px;
+}
+
+.home-links {
+    margin-bottom:0;
+    h3 {
+        margin-top:0;
+    }
+    > li {
+        //border-top: 1px @gray-light solid;
+        @media @bs-media-md-and-above {
+            padding-right:51px;
+            padding-right:51px;
+            //padding-top:8px;
+        }
+        /*@media @bs-media-md-and-above {
+            width:20%;
+            float:left;
+            padding:0;
+            .text-center;
+            //padding-top:8px;
+        }*/
+    }
+    /*p {
+        margin-bottom:22px;
+    }*/
+}
+
+/* Side Bar */
+
+.aside {
+    border-top: 5px solid #d9534f;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.img-exhibitor-logo {
+    margin-bottom: 11px;
+}
+
+
+//********************************************************************
+// Conference
+//********************************************************************
+
+.img-conference-logo {
+
+    max-width:100px;
+    margin-top:22px;
+}
+.links-transparency {
+        .transparency-base;
+        .transition(opacity .15s linear);
+    }
+div:hover>.links-transparency {    
+    opacity: 1;
+}
+
+.session-title {
+    .h2;
+    .h3-sm;
+    .h3-md; 
+    .text-uppercase;
+    .text-center-xs;
+    .text-center-sm;
+    .text-lighter;
+}
+
+.conference-speaker {
+    margin-bottom: 22px;
+    @media print {
+        width: 50%;
+        float: left;
+    }
+}
+
+.conference-speaker-logo .container-speaker-logo {
+    margin-top: 0;
+}
+
+@media print {
+
+    .speaker-media {
+        width: 40%;
+        display:inline;
+        float: left;
+    }
+    .speaker-title {
+        width: 60%;
+        display:inline;
+        float: left;
+    }
+}
+
+.img-speaker {
+    .img-circle;
+    .img-responsive;
+    .center-block;
+    border: 1px solid @gray-lightest;
+    @media @bs-media-xs {
+        max-width:220px;
+        margin-top:22px;
+    }
+}
+
+.inline-speaker-logo {
+    display:inline-block;
+    width:100%;
+}
+
+.container-speaker-logo {
+    .center-block;
+    margin-top: -15px;
+    padding:5px;
+    background: rgba(221,221,221,0.5);
+    // display: inline-block;
+    @media @bs-media-xs {
+        max-width:220px;
+    }
+}
+.container-logo-gold {
+    //* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f9f1db+0,f7e5b9+49,edd59a+53,fff7e5+100 */
+    background: rgb(249,241,219); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(249,241,219,1) 0%, rgba(247,229,185,1) 49%, rgba(237,213,154,1) 53%, rgba(255,247,229,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(249,241,219,1) 0%,rgba(247,229,185,1) 49%,rgba(237,213,154,1) 53%,rgba(255,247,229,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(249,241,219,1) 0%,rgba(247,229,185,1) 49%,rgba(237,213,154,1) 53%,rgba(255,247,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f1db', endColorstr='#fff7e5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.container-logo-platinum {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e2e2e2+0,dbdbdb+50,d1d1d1+51,fefefe+100;Grey+Gloss+%231 */
+    background: #e2e2e2; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.container-logo-bronze {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feccb1+0,d38056+50,cc8a6c+51,f9ccb3+100 */
+    background: rgb(254,204,177); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(254,204,177,1) 0%, rgba(211,128,86,1) 50%, rgba(204,138,108,1) 51%, rgba(249,204,179,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(254,204,177,1) 0%,rgba(211,128,86,1) 50%,rgba(204,138,108,1) 51%,rgba(249,204,179,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(254,204,177,1) 0%,rgba(211,128,86,1) 50%,rgba(204,138,108,1) 51%,rgba(249,204,179,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#f9ccb3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.img-speaker-logo {
+    .img-responsive;
+    .center-block;
+    background: #fff;
+    padding: 8px;
+}
+
+a.session-row {
+    color: @text-color;
+}
+.session-row:hover .session-row-title {
+    text-decoration: underline;
+}
+
+.session-row-title {
+    padding-left: 15px;
+    list-style-type: none;
+    li:before {
+        content: '+';
+        font-weight: bold;
+        position: absolute;
+        color: @brand-primary;
+        margin-left: -15px;
+    }
+}
+
+.session-details {
+    -webkit-transition: none;
+    transition: none;
+}
+.session-details-header {
+    padding: 0 15px;
+    background: @gray-lightest;
+}
+.session-break {
+    overflow: overlay;
+    background: #f5f5f5;
+    padding: 0 15px;
+}
+
+//********************************************************************
+// Exhbition
+//********************************************************************
+
+.more-icon-container {
+    margin-top: -35px;
+}
+
+.exhibitor-panel {
+    margin-bottom: 15px;
+    .panel-title {
+        margin-top:0;
+        margin-bottom:11px;
+    }
+}
+
+// EXHIBITOR PANELS - I think it's worth refactoring this into mixins based off of Bootstrap Panels
+.exhibitor-info-bar {
+    .bg-default-hover;
+    .transition(background .15s linear);
+}
+
+.exhibitor-more-icon {
+    .text-default-hover;
+    .transition(color .15s linear);
+}
+
+/*.button{
+  background-color: #d9534f;
+  color: #fff;
+  padding: 15px;
+  margin: 15px 0px;
+  display: block;
+  text-align: center;
+
+ &:hover{
+  background-color: #c44f4b;
+  color: #fff;
+  text-decoration: none;
+  }
+
+}*/
+
+.temp-content-top {
+    margin: 15px 0px;
+}
+
+.hero-title {
+    font-weight: 600;
+}
+
+.footer {
+    border-top: 5px solid #d9534f;
+    padding: 60px 0;
+    margin-top: 60px;
+    background: @gray-lightest;
+    li {
+        margin-bottom: 10px;
+    }
+    li > a,
+    li > a:hover,
+    li > a:active,
+    li > a:focus {
+        color: @gray;
+        text-decoration: underline;
+    }
+}
+
+//********************************************************************
+// Footer
+//********************************************************************
+
+.sm-icon {
+    max-width:18px;
+}

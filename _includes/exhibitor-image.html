@@ -1,0 +1,9 @@
+{%- if exhibitor.link -%}
+
+	<a href="{{ exhibitor.link }}" target="_blank"><img src="{{ '/assets/img/companies/' | append: exhibitor.logo | relative_url }}" alt="{{ exhibitor.name }}" class="img-responsive center-block"></a>
+
+{%- else -%}
+
+	<img src="{{ '/assets/img/companies/' | append: exhibitor.logo | relative_url }}" alt="{{ exhibitor.name }}" class="img-responsive center-block">	
+
+{%- endif -%}

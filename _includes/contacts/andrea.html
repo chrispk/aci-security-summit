@@ -1,0 +1,25 @@
+<div class="row hidden-xs">
+  <div class="col-md-5">
+    <div class="text-center">
+      <img src="{{ '/assets/img/contact-andrea-ahearn-300x300.jpg' | relative_url }}" alt="Andrea Ahearn" class="img-speaker">
+           
+    </div>
+  </div>
+  <div class="col-md-7">
+    <address class="margin-secondary">
+      <p><span class="h4">Andrea Ahearn</span><br>
+      <span class="small">ACI Events Manager</span></p>
+
+      {%- if page.title == 'Get in touch' -%}
+        <p class="small"><abbr title="Telephone">T:</abbr> +44 1293 783 851<br>
+        <abbr title="Email">E:</abbr> <a href="mailto:andrea@pps-publications.com">andrea@pps-publications.com</a></p>'
+      
+      {%- else -%}
+
+        <a href="{% link contact.md %}">Get in touch </a>
+
+      {%- endif -%}
+
+    </address>
+  </div>
+</div>

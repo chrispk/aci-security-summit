@@ -1,0 +1,26 @@
+<div class="row hidden-xs">
+  <div class="col-md-5">
+    <div class="text-center">
+      <img src="{{ '/assets/img/contact-natalie-england-300x300.jpg' | relative_url }}" alt="Natalie England" class="img-speaker">
+           
+    </div>
+  </div>
+  <div class="col-md-7">
+    <address class="margin-secondary">
+      <p><span class="h4">Natalie England</span><br>
+      <span class="small">Exhibition Operations Manager</span></p>
+      
+      {%- if page.title == 'Get in touch' -%}
+        
+        <p class="small"><abbr title="Telephone">T:</abbr> +44 1293 783 851<br>
+        <abbr title="Email">E:</abbr> <a href="mailto:natalie.england@pps-publications.com">natalie.england@pps-publications.com</a></p>
+      
+      {%- else -%}
+
+        <a href="{% link contact.md %}">Get in touch </a>
+
+      {%- endif -%}
+
+    </address>
+  </div>
+</div>

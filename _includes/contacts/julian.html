@@ -1,0 +1,26 @@
+<div class="row hidden-xs">
+  <div class="col-md-5">
+    <div class="text-center">
+      <img src="{{ '/assets/img/contact-julian-bidlake-123x123.jpg' | relative_url }}" alt="Julian Bidlake" class="img-speaker">
+           
+    </div>
+  </div>
+  <div class="col-md-7">
+    <address class="margin-secondary">
+      <p><span class="h4">Julian Bidlake</span><br>
+      <span class="small">Head of Exhibition<br/>&amp; Sponsorship</span></p>
+      
+      {%- if page.title == 'Get in touch' -%}
+        
+        <p class="small"><abbr title="Telephone">T:</abbr> +44 1293 783 851<br>
+        <abbr title="Email">E:</abbr> <a href="mailto:julian@pps-publications.com">julian@pps-publications.com</a></p>
+      
+      {%- else -%}
+
+        <a href="{% link contact.md %}">Get in touch </a>
+
+      {%- endif -%}
+
+    </address>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+<div class="row hidden-xs">
+  <div class="col-md-5">
+    <div class="text-center">
+      <img src="{{ '/assets/img/contact-catherine-noakes-199x199.jpg' | relative_url }}" alt="Catherine Noakes" class="img-speaker">
+           
+    </div>
+  </div>
+  <div class="col-md-7">
+    <address class="margin-secondary">
+      <p><span class="h4">Catherine Noakes</span><br>
+      <span class="small">Head of Events and Association Business</span></p>
+      
+      {%- if page.title == 'Get in touch' -%}
+        
+        <p class="small"><abbr title="Telephone">T:</abbr> +44 1293 783 851<br>
+        <abbr title="Email">E:</abbr> <a href="mailto:catherine@pps-publications.com">catherine@pps-publications.com</a></p>
+      
+      {%- else -%}
+
+        <a href="{% link contact.md %}">Get in touch </a>
+
+      {%- endif -%}
+
+    </address>
+  </div>
+</div>
