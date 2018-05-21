@@ -44,7 +44,7 @@ permalink: /exhibition/
                     {% include contacts/julian.html %}
                     <div class="margin-top-primary">
                         <p>Exhibition and sponsorship opportunities are still available:
-                            <br><a href="{% link sponsorship.md %}"><strong>click here to learn more</strong></a></p>
+                            <br><a href="{{ site.baseurl }}{% link sponsorship.md %}"><strong>click here to learn more</strong></a></p>
                     </div>
                     {% include sidebar-cta.html %}
                 </aside>

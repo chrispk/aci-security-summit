@@ -12,7 +12,7 @@ layout: default
         <div class="col-sm-8">
           <h1 class="margin-top-none"><strong>‘Delivering Safe, Efficient, and Secure Airports’</strong></h1>
           <p>An urgently-convened special summit of airports, security agencies and senior transport administrators called to safeguard airports against ongoing threat.</p>
-          <p><a href="{% link register.md %}"><strong><u>Early bird rates end Friday 21st October 2016</u></strong></a></p>
+          <p><a href="{{ site.baseurl }}{% link register.md %}"><strong><u>Early bird rates end Friday 21st October 2016</u></strong></a></p>
         </div>
         <div class="col-sm-4 hidden-xs">
           <div class="latest-news-container">
@@ -29,10 +29,10 @@ layout: default
   <section class="section hidden-xs">
     <div class="container container-md">
       <ul class="list-inline home-links small">
-        <li><a href="{% link networking.md %}">Evening Networking</a></li>
-        <li><a href="{% link plan-your-visit.md %}">Travel &amp; Accommodation</a></li>
-        <li><a href="{% link sponsorship.md %}">Support &amp; Sponsorship</a></li>
-        <li><a href="{% link contact.md %}">Get in touch</a></li>
+        <li><a href="{{ site.baseurl }}{% link networking.md %}">Evening Networking</a></li>
+        <li><a href="{{ site.baseurl }}{% link plan-your-visit.md %}">Travel &amp; Accommodation</a></li>
+        <li><a href="{{ site.baseurl }}{% link sponsorship.md %}">Support &amp; Sponsorship</a></li>
+        <li><a href="{{ site.baseurl }}{% link contact.md %}">Get in touch</a></li>
         <li><a href="http://aci-europe-events.us1.list-manage1.com/subscribe?u=5b5b5e0ea5c4a5f3bcb9d1b8b&id=9f10b2b7e5">Sign up for updates</a></li>
       </ul>
       <div class="clearfix"></div>
@@ -47,7 +47,7 @@ layout: default
           <p>Case studies that you cannot hear anywhere else:</p>
         </div>
         <div class="col-md-3">
-          <a href="{% link conference.md %}" role="button" class="btn btn-primary text-wrap margin-top-primary">View Conference Agenda</a>
+          <a href="{{ site.baseurl }}{% link conference.md %}" role="button" class="btn btn-primary text-wrap margin-top-primary">View Conference Agenda</a>
         </div>
       </div>
       <br>

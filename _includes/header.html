@@ -6,7 +6,7 @@
   <div class="container container-md">
     <div class="row">
       <div class="col-sm-6">
-        <a href="{% link index.md %}"><img src="{{ '/assets/img/aci-europe-asia-pacific.svg' | relative_url }}" class="header-sponsors-logo pull-left"></a>
+        <a href="{{ site.baseurl }}{% link index.md %}"><img src="{{ '/assets/img/aci-europe-asia-pacific.svg' | relative_url }}" class="header-sponsors-logo pull-left"></a>
         <h6 class="header-sponsors-text pull-left"><strong>ACI EUROPE &amp; ASIA-PACIFIC<br>PRESENT</strong></h6>
       </div>
       <div class="col-sm-6">
@@ -26,18 +26,18 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="{% link index.md %}"><img src="{{ '/assets/img/aci-security-summit-navbar-brand.svg' | relative_url }}" title="ACI Security & Crisis Management Special Summit" class="img-responsive" style="width:620px;margin-left:-4px;"></a>
+      <a class="navbar-brand" href="{{ site.baseurl }}{% link index.md %}"><img src="{{ '/assets/img/aci-security-summit-navbar-brand.svg' | relative_url }}" title="ACI Security & Crisis Management Special Summit" class="img-responsive" style="width:620px;margin-left:-4px;"></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li class="visible-xs"><a href="{% link index.md %}" class="h5 margin-none"><strong>Home</strong></a></li>
-        <li {% if page.title == 'Conference' %}class='active'{% endif %}><a href="{% link conference.md %}" class="h5 margin-none"><strong>Conference</strong></a></li>
-        <li {% if page.title == 'Exhibition' %}class='active'{% endif %}><a href="{% link exhibition.md %}" class="h5 margin-none"><strong>Exhibition</strong></a></li>
-        <li {% if page.title == 'Register' %}class='active'{% endif %}><a href="{% link register.md %}" class="h5 margin-none"><strong>Register</strong></a></li>
-        <li class="visible-xs"><a href="{% link networking.md %}" class="h5 margin-none"><strong>Evening Networking</strong></a></li>
-        <li class="visible-xs"><a href="{% link plan-your-visit.md %}" class="h5 margin-none"><strong>Travel &amp; Accommodation</strong></a></li>
-        <li class="visible-xs"><a href="{% link sponsorship.md %}" class="h5 margin-none"><strong>Support &amp; Sponsorship</strong></a></li>
-        <li class="visible-xs"><a href="{% link contact.md %}" class="h5 margin-none"><strong>Get in touch</strong></a></li>
+        <li class="visible-xs"><a href="{{ site.baseurl }}{% link index.md %}" class="h5 margin-none"><strong>Home</strong></a></li>
+        <li {% if page.title == 'Conference' %}class='active'{% endif %}><a href="{{ site.baseurl }}{% link conference.md %}" class="h5 margin-none"><strong>Conference</strong></a></li>
+        <li {% if page.title == 'Exhibition' %}class='active'{% endif %}><a href="{{ site.baseurl }}{% link exhibition.md %}" class="h5 margin-none"><strong>Exhibition</strong></a></li>
+        <li {% if page.title == 'Register' %}class='active'{% endif %}><a href="{{ site.baseurl }}{% link register.md %}" class="h5 margin-none"><strong>Register</strong></a></li>
+        <li class="visible-xs"><a href="{{ site.baseurl }}{% link networking.md %}" class="h5 margin-none"><strong>Evening Networking</strong></a></li>
+        <li class="visible-xs"><a href="{{ site.baseurl }}{% link plan-your-visit.md %}" class="h5 margin-none"><strong>Travel &amp; Accommodation</strong></a></li>
+        <li class="visible-xs"><a href="{{ site.baseurl }}{% link sponsorship.md %}" class="h5 margin-none"><strong>Support &amp; Sponsorship</strong></a></li>
+        <li class="visible-xs"><a href="{{ site.baseurl }}{% link contact.md %}" class="h5 margin-none"><strong>Get in touch</strong></a></li>
         <li class="visible-xs"><a href="http://aci-europe-events.us1.list-manage1.com/subscribe?u=5b5b5e0ea5c4a5f3bcb9d1b8b&id=9f10b2b7e5" class="h5 margin-none"><strong>Sign up for updates</strong></a></li>
       </ul>
     </div><!--/.navbar-collapse -->

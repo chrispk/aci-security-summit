@@ -123,7 +123,7 @@ permalink: /plan-your-visit/
             <div class="col-sm-8 col-md-8 col-lg-8">
                 <p>Delegates attending the ACI EUROPE Security and Crisis Management Special Summit 2016 should be mindful of visa entry requirements prior to travel into Belgium. Travel and visa arrangements are the responsibility of the individual. For further information on the requirements from your country, please visit the following website:</p>
                 <p><a href="http://diplomatie.belgium.be/en/services/travel_to_belgium/visa_for_belgium">http://diplomatie.belgium.be/en/services/travel_to_belgium/visa_for_belgium</a></p>
-                <p>Delegates requiring additional assistance or advice may contact the ACI EUROPE Event Team <a href="{% link contact.md %}">here</a>.</p>
+                <p>Delegates requiring additional assistance or advice may contact the ACI EUROPE Event Team <a href="{{ site.baseurl }}{% link contact.md %}">here</a>.</p>
             </div>
         </div>
     </div>

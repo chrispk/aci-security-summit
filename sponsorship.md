@@ -46,7 +46,7 @@ permalink: /sponsorship/
             </div>
             <div class="col-sm-8 col-md-8 col-lg-8">
                 <p>Far from a large scale EXPO-style showcase, the exhibition at the Summit will be an exclusive networking area at the heart of the event, featuring around 20 vendors demonstrating the latest security and related technologies.</p>
-                <p>As space in the downtown Brussels venue is restrictive, exhibition stands are offered on a first-come, first-served basis. Please review the <a href="{% link exhibition.md %}" title="Security Exhibition">exhibition page</a> for the latest information on exhibition space available, and <a href="{% link contact.md %}" title="Get in touch">contact our team</a> to discuss your involvement.</p>
+                <p>As space in the downtown Brussels venue is restrictive, exhibition stands are offered on a first-come, first-served basis. Please review the <a href="{{ site.baseurl }}{% link exhibition.md %}" title="Security Exhibition">exhibition page</a> for the latest information on exhibition space available, and <a href="{{ site.baseurl }}{% link contact.md %}" title="Get in touch">contact our team</a> to discuss your involvement.</p>
                 <img src="{{ '/assets/img/exhibition-slide-1-apex.jpg' | relative_url }}" alt="Exhibition" class="img-responsive margin-bottom">
             </div>
         </div>
