@@ -1,7 +1,7 @@
 {
-  "name": "glen-park-responsive",
+  "name": "aci-security-summit",
   "version": "1.0.0",
-  "description": "Responsive Website for Glen Park",
+  "description": "Marketing website for ACI Security Summit 2016 event",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
